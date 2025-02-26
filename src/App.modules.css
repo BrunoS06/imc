@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    font-family: "Quicksand", serif;
+    font-size: 28px;
+    font-weight: 700;
+    height: 5rem;
+}
+
+.tela{
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgba(212, 212, 212, 0.664);
+    width: 22rem;
+    height: 32rem;
+    border-radius: 20px;
+    border-color: black;
+    border-width: 3px;
+    border-style: solid;
+}
+
+.inputAltura{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 13px;
+    border-width: 3px;
+    border-style: solid;
+    font-family: "Quicksand", serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+label{
+    font-family: "Quicksand", serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.inputPeso{
+    width: 15rem;
+    height: 2rem;
+    border-radius: 13px;
+    border-width: 3px;
+    border-style: solid;
+    font-family: "Quicksand", serif;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 0.4rem;
+    margin-bottom: 1rem;
+}
+
+.botao{
+    width: 5rem;
+    height: 2rem;
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    font-family: "Quicksand", serif;
+    font-size: 14px;
+    font-weight: 700;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    margin: 0.3rem;
+}
+
+.resultado{
+    display: flex;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    flex-direction: column;
+    width: 15rem;
+    height: 5rem;
+    text-align: center;
+    font-family: "Quicksand", serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    background-color: rgb(255, 255, 255);
+    padding: 0.4rem;
+}
+
+.imc{
+    display: flex;
+    flex-wrap: wrap;
+    height: 3rem;   
+    width: 15rem;
+    justify-content: center;
+    margin-top: 0.3rem;
+}
+
+.classificacao{
+    display: flex;
+    height: 3rem;
+    width: 15rem;
+    justify-content: center;
+    margin-bottom: 1rem;
+}
+
+.imcLabel{
+    margin-right: 0.4rem;
+    font-size: 18px;
+}
