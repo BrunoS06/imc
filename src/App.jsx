@@ -51,6 +51,12 @@ function App() {
     }
   }
 
+  let resetar = () => {
+    if (botao == true) {
+      window.location.reload()
+    }
+  }
+
 
   return (
    <div>
@@ -64,7 +70,7 @@ function App() {
       type='text' maxLength='3' placeholder='Ex: 72'/>
 
       <button className='botao' onClick={(e) => setbotao(e.target.value=true)}>Calcular</button>
-      <button className='botao'onClick={(e) => setbotao(e.target.value=false)}>Reset</button>
+      <button className='botao'onClick={resetar}>Reset</button>
 
       <div className='resultado'>
         <div className='imc'>
